@@ -1,0 +1,86 @@
+[
+  {
+    "id": "chatcmpl-8IkS8UJic93iQdAGICWOR0jlU6Pvg",
+    "object": "chat.completion",
+    "created": 1699479160,
+    "model": "gpt-4-0613",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Zanim zaczniemy uwodzić Was kuszącym opisem pizzy Margherity, warto przybliżyć jej skromne korzenie i fascynującą historię na przestrzeni wieków. Pizza, jako kulinarny koncept, jest tylko nieco młodsza od najstarszych cywilizacji na świecie. Archeolodzy są przekonani, że już starożytni Egipcjanie, Grecy oraz Rzymianie robili prosty chleb podobny do dzisiejszego płaskiego, cienkiego ciasta pizzy.\n\nJej korzenie, jakie znamy dzisiaj, sięgają jednak XIX wieku w zatłoczonym i gwarnym Neapolu we Włoszech. Była ulubionym przysmakiem biednych mieszkańców tej okolicy, którzy potrzebowali szybkiego, taniego posiłku na zapchłonątko. Wtedy również narodziła się pizza Margherita, ciesząca się niesłabnącym uznaniem do dnia dzisiejszego i zasługuje na osobne potraktowanie w kontekście historii pizzy. \n\nPizza Margherita, znanym ze swojego prostego, lecz niezapomnianego smaku z mozzarellą, pomidorami i świeżą bazylią. Choć historia tego dania jest otoczona legendą, najbardziej popularna mówi o tym, że powstała na cześć włoskiej królowej - Małgorzaty Sabaudzkiej, podczas jej wizyty w Neapolu w 1889 roku. Pizzaiolo Raffaele Esposito stworzył to danie, chcąc oddać hołd Włochom, za pomocą barw narodowych: czerwonego pomidora, białego sera i zielonej bazylii.\n\nPrzyjęło się, że pizza Margherita stała się pierwszą \"współczesną\" pizzą, jednak to proste i skromne danie z Neapolu na zawsze zmieniło kulinarne krajobrazy na całym świecie. Teraz, kiedy znamy jej historię, czas na zanurzenie się w jej kulturowym znaczeniu, smaku i metodzie przygotowania. Zatem, zapnijcie pasy, rozpoczynamy kulinarne podróże do świata pizzy Margherity."
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 71,
+      "completion_tokens": 600,
+      "total_tokens": 671
+    }
+  },
+  {
+    "id": "chatcmpl-8IkS8aYCDlr1dsyPVpj3jLMfXBuNp",
+    "object": "chat.completion",
+    "created": 1699479160,
+    "model": "gpt-4-0613",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Piękno pizzy Margherity tkwi w jej prostocie. Ten włoski klasyk wymaga tylko kilku podstawowych składników, ale jest to doskonały przykład, że jakość przekłada się na smak. Przygotowując się do stworzenia pizzy Margherity w domu, pamiętaj, że kluczem jest zakup najwyższej jakości produktów. Oto niezbędne składniki:\n\n1. Ciasto na pizzę - Jego przygotowanie to sztuka sama w sobie. Będziesz potrzebować mąki typu '00', drożdży, ciepłej wody, soli i oliwy z oliwek. Mąka typu '00' to specjalny rodzaj mąki używany do produkcji ciasta na pizzę, które jest lekkie, a jednocześnie elastyczne. Jeżeli nie znajdziesz mąki '00', zwykła mąka do wypieków będzie również dobra.\n\n2. Sos pomidorowy - Można go zrobić samodzielnie z dojrzałych pomidorów lub kupić gotowy. Pamiętaj, że sos powinien być prosty i składać się głównie z dobrze zmielonych pomidorów. Aby dodać mu nieco więcej smaku, możesz dodać szczyptę soli, pieprzu i cukru, a także kilka listków świeżej bazylii.\n\n3. Ser Mozzarella - Tylko świeża mozzarella nada twojej pizzy kremową, lekko \"pociągającą\" konsystencję. Pamiętaj, żeby odsączyć ser z wody przed użyciem, aby uniknąć nadmiernej wilgotności na pizzy.\n\n4. Świeża bazylia - Jest kluczowym składnikiem pizzy Margherity, dodającym świeżości i pięknego kontrastu kolorystycznego. Dodaj ją na wierzch pizzy tuż przed pieczeniem.\n\n5. Oliwa z oliwek - Jako ostatni szlif, przed włożeniem pizzy do pieca, skrop ją odrobiną dobrej jakości oliwy z oliwek. To pomoże jej uzyskać złotą skórkę i dodatkową głębię smaku.\n\n6. Sól i pieprz - Na koniec, ale nie mniej ważne. Drobne szczypty soli i świeżo mielonego czarnego pieprzu są szczegółem, który może przemienić dobrą pizzę w doskonałą.\n\nPamiętaj, że prawdziwa pizza Margherita jest prostą danie, gdzie każdy składnik jest ważny i powinien być najlepszej jakości. W końcu, jak mawiają Włosi, \"la semplicità è l'ultima sofisticazione\" - prostota jest ostateczną wyrafinowaniem."
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 68,
+      "completion_tokens": 740,
+      "total_tokens": 808
+    }
+  },
+  {
+    "id": "chatcmpl-8IkS9x20IVg2DbwJ3r6QJ636t3adK",
+    "object": "chat.completion",
+    "created": 1699479161,
+    "model": "gpt-4-0613",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Robienie pizzy Margherity jest niczym tworzenie dzieła sztuki. Zaczyna się od najważniejszego elementu - ciasta. Powinno być ono lekkie, a jednocześnie elasticzne, z delikatnym, chlebowym smakiem. Przepisów na ciasto jest mnóstwo, ale zawsze potrzebujesz mąki, drożdży, wody, soli i oliwy. To jest podstawa, która decyduje o finalnym smaku naszej pizzy.\n\nNastępnie przechodzimy do najważniejszego składnika pizzy - sosu pomidorowego. Tu pochopność nie jest wskazana. Pomidory powinny być dojrzałe, soczyste i pełne smaku, przy czym najważniejsze, aby były prawdziwe - bez sztucznych konserwantów i dodatków. Całość doprawiamy czosnkiem, solą, pieprzem i bazylią. Pamiętaj, że sos musi być dobrze ugotowany, aby składniki dobrze się ze sobą połączyły.\n\nGłównym bohaterem pizzy Margherity jest ser mozzarella. Jego miękka i kremowa konsystencja idealnie komponuje się z resztą składników. Musisz jednak pamiętać, że mozzarella powinna być świeża i wysokiej jakości. To ważne, aby jej smak nie gryzł się z sosom i ciastem, ale ładnie je dopełniał.\n\nNa samym końcu dodajemy świeżą bazylię, która swoim świeżym, nieco pikantnym smakiem, dodaje pizzy Margherity charakteru. Bazylia powinna być dodana na samym końcu, gdy pizza jest już prawie gotowa. Unikamy w ten sposób przypalenia ziół, a nasza pizza zyskuje niepowtarzalny smak.\n\nKluczowym momentem przygotowania pizzy Margherity jest pieczenie. Tradycyjnie robi się to w temperaturze 485 stopni Celsjusza przez 90 sekund. W domowych warunkach najlepiej użyć kamienia do pizzy, który równomiernie rozprowadza ciepło i zapewnia chrupiące, ale jednocześnie miękkie ciasto.\n\nPamiętaj, że każda pizza to nie tylko zbiór składników, ale przede wszystkim doświadczenie. Smak, zapach, wygląd - wszystko to razem tworzy prawdziwą pizzę Margheritę. Jednak najważniejszą składnik każdej pizzy jest miłość i pasja do gotowania. Więc rób swoją pizzę z sercem i na pewno będzie pyszna!"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 60,
+      "completion_tokens": 694,
+      "total_tokens": 754
+    }
+  },
+  {
+    "id": "chatcmpl-8IkS8pKIiG11nIdgYBb4pYrpN3x4c",
+    "object": "chat.completion",
+    "created": 1699479160,
+    "model": "gpt-4-0613",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Chociaż pieczenie pizzy może wydawać się proste, istnieje kilkanaście subtelności do opanowania by otrzymać idealną, chrupiącą skórkę i w pełni roztopiony ser, które definiują prawdziwą pizzę Margheritę. \n\nPierwszym krokiem jest oczywiście preheating, czyli nagrzewanie piekarnika. Profesjonalne pizzerie używają pieców, które osiągają temperaturę do 500 stopni Celsjusza, ale większość domowych piekarników nie jest w stanie osiągnąć takiej temperatury. Nie ma się jednak czym martwić - możesz upiec doskonałą pizzę przy temperaturze 250 stopni, tylko czas pieczenia będzie trochę dłuższy. Jeżeli posiadasz kamień do pizzy, upewnij się, że jest on umieszczony w piekarniku przed nagrzewaniem, aby mógł odpowiednio się rozgrzać.\n\nDough, czyli ciasto, musi być cienko rozwałkowane i bliskości pieca na kamieniu lub blasze do pieczenia. Po rozmieszczeniu składników, czas na pieczenie. Pizza Margherita to proste danie, które wymaga odrobiny uwagi podczas pieczenia. W przypadku pieczenia w temperaturze 250 stopni pizzę powinno się piec około 10-15 minut, ale wszystko zależy od piekarnika. Idealny moment to taki, gdy ser jest w pełni roztopiony, a brzegi stają się złociste i chrupiące.\n\nPodczas pieczenia, musimy również zwracać uwagę na składniki. Bazylia ma tendencję do przypalania, jeżeli jest pieczona zbyt długo, dlatego warto dodać ją pod koniec pieczenia lub nawet tuż po wyjęciu pizzy z piekarnika. \n\nW ten sposób, z odrobiną praktyki i uwagą na detale, możemy upiec w domu pizzę Margheritą, której nie powstydziłaby się nawet najbardziej prestiżowa włoska pizzeria. Remember tylko, że każda pizza może być różna i nie zrażaj się, jeżeli pierwsza nie wyjdzie idealnie. Praktyka czyni mistrza!"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 66,
+      "completion_tokens": 600,
+      "total_tokens": 666
+    }
+  }
+]

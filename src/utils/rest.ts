@@ -40,7 +40,7 @@ export class RestClient<Task, Answer> {
   solve = async (solution: (task: Task) => Promise<Answer>) => {
     await this.auth();
     const task = await this.getTask();
-    serialize(`task_${this.taskName}`)(task);
+    serialize(`${this.taskName}_task`)(task);
     const answer = await solution(task);
     return this.sendAnswer(answer);
   };
