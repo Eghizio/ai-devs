@@ -1,14 +1,16 @@
 import * as config from "../config";
+import { serialize } from "./serializer";
 
 export const get = (url: string) => fetch(`${url}`).then(res => res.json()).catch(console.error);
 export const post = (url: string, body: any) => fetch(url, { method: "POST", body: JSON.stringify(body) }).then(res => res.json()).catch(console.error);
 
 type Action = "auth" | "task" | "answer";
 
-export class RestClient {
+// <Task> could contain { code, msg } and then be extended.
+export class RestClient<Task, Answer> {
   private readonly taskName: string;
   private token: string | null = null;
-  private answer: string | null = null;
+  private answer: Answer | null = null;
 
   constructor(taskName: string) {
     this.taskName = taskName;
@@ -35,9 +37,10 @@ export class RestClient {
     }
   };
 
-  solve = async (solution: (task: any) => Promise<string>) => {
+  solve = async (solution: (task: Task) => Promise<Answer>) => {
     await this.auth();
     const task = await this.getTask();
+    serialize(`task_${this.taskName}`)(task);
     const answer = await solution(task);
     return this.sendAnswer(answer);
   };
@@ -53,9 +56,7 @@ export class RestClient {
     this.token = data.token;
   };
 
-  private getTask = async () => {
-    
-
+  private getTask = async (): Promise<Task> => {
     const data = await get(this.getUrl("task"));
     
     if (data.code !== 0) {
@@ -66,7 +67,7 @@ export class RestClient {
     return data;
   };
 
-  private sendAnswer = async (answer: string) => {
+  private sendAnswer = async (answer: Answer) => {
     const data = await post(this.getUrl("answer"), { answer });
 
     if (data.code !== 0) {
