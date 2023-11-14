@@ -1,0 +1,9 @@
+{
+  "question": "What is your name?",
+  "reply": {
+    "code": 0,
+    "msg": "This is my answer",
+    "answer": "In Italy, where pizza originated, the concept of pineapple on pizza is largely frowned upon."
+  },
+  "answer": "NO"
+}

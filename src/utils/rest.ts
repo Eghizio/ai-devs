@@ -6,6 +6,8 @@ export const post = (url: string, body: any) => fetch(url, { method: "POST", bod
 
 type Action = "auth" | "task" | "answer";
 
+type DefaultTask<T> = { code: number; msg: string; } & T;
+
 // <Task> could contain { code, msg } and then be extended.
 export class RestClient<Task, Answer> {
   private readonly taskName: string;
@@ -37,7 +39,7 @@ export class RestClient<Task, Answer> {
     }
   };
 
-  solve = async (solution: (task: Task) => Promise<Answer>) => {
+  solve = async (solution: (task: DefaultTask<Task>) => Promise<Answer>) => {
     await this.auth();
     const task = await this.getTask();
     serialize(`${this.taskName}_task`)(task);
@@ -56,7 +58,7 @@ export class RestClient<Task, Answer> {
     this.token = data.token;
   };
 
-  private getTask = async (): Promise<Task> => {
+  private getTask = async (): Promise<DefaultTask<Task>> => {
     const data = await get(this.getUrl("task"));
     
     if (data.code !== 0) {
@@ -77,6 +79,17 @@ export class RestClient<Task, Answer> {
 
     this.answer = answer;
     return data;
+  };
+
+  submitQuestion = async (question: string): Promise<DefaultTask<{ answer: string; }>> => {
+    await this.auth();
+    
+    const body = new FormData();
+    body.append("question", question);
+
+    return fetch(this.getUrl("task"), { method: "POST", body })
+      .then(res => res.json())
+      .catch(console.error);
   };
 };
 
